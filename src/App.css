@@ -1,1 +1,26 @@
 /*Schrijf hier jouw css voor jouw formulier*/
+.divstyle {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+form {
+    width: 40%;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+input, select, textarea {
+    margin: 5px;
+
+}
+
+textarea {
+    width: 80%;
+    height: 80px;
+}
